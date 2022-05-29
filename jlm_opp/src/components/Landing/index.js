@@ -4,11 +4,17 @@ import img1 from "../../assets/cover-1.png"
 import img2 from "../../assets/pic001.png"
 import img3 from "../../assets/pic002.png"
 import { Icon } from 'semantic-ui-react'
+import { Helmet } from 'react-helmet'
+const TITLE = 'Home - JLM Opportunity'
 
 
 function Landing() {
   return (
+    
       <div>
+         <Helmet>
+          <title>{ TITLE }</title>
+        </Helmet>
     <section class="Parent01">
     <div class="child1">
     <h1 className='slogan'>
@@ -18,8 +24,7 @@ function Landing() {
       L’insertion professionnels  n’a jamais etait aussi facile
       </h3>
       <button className='btn1'>
-        Learn more
-    </button>
+Plus De Détails    </button>
     </div>
     <div class="child2">
     <img
