@@ -16,6 +16,7 @@ function App() {
       <Header/>
       <Landing/>
       <Feed/>
+      
      </Container>
     </div>
   );
