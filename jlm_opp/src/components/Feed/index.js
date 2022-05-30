@@ -90,8 +90,8 @@ function Feed() {
         <div class="col-sm-3">
             <section id="pointTab">
                 <h2>Points</h2>
-                <input type="range" value="70"/>
-                <h4> 1700 / 2400 </h4>
+                <input  id="range" type="range" value="70"/>
+                <h4> 1700 / 2200 </h4>
                 <br/>
                 <div id="goals">
                 <br/>
